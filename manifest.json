@@ -4,8 +4,8 @@
   "description": "Oleh Lamzin github page",
   "icons": [
     {
-      "src": "/images/icons-320.jpeg",
-      "type": "image/jpeg",
+      "src": "/images/icons-320.png",
+      "type": "image/png",
       "sizes": "320x320"
     }
   ],
