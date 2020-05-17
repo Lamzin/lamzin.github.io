@@ -20,5 +20,12 @@ textarea {
   color: white;
 
   font-family: "Roboto";
-  font-size: 22px;
+  font-size: 2pc;
+}
+
+textarea::placeholder {
+  color: gray;
+
+  font-family: "Roboto";
+  font-size: 2pc;
 }
