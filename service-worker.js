@@ -48,7 +48,7 @@ function getNotes() {
     request = store.get(1);
 
     request.onsuccess = function(event) {
-      let notes = event.target.result;
+      let notes = event.target.result || "";
       self.clients.matchAll().then(clients => {
         clients.forEach(client => {
           client.postMessage({ notes: notes });
