@@ -29,3 +29,7 @@ textarea::placeholder {
   font-family: "Roboto";
   font-size: 2pc;
 }
+
+textarea:focus {
+  outline: none;
+}
